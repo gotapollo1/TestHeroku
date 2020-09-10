@@ -63,7 +63,7 @@ public class Controller {
     public List<userProduct> getUserProduct(){
         return userProductRepository.findAll();
     }
-    @GetMapping("/user/product/id")
+  /*  @GetMapping("/user/product/id")
     public Optional<userProduct> getUserProductByID(@RequestParam Integer id){
         return userProductRepository.findById(id);
     }
